@@ -2,7 +2,6 @@
 
 # Usage in colab cell : 
 
-! wget https://github.com/saifbelaarbi/github/blob/main/setup.sh $> /dev/null  
-! chmod +x setup.sh  
-! ./setup.sh
+! rm -rf ../RDP-from-colab && git clone https://github.com/saifbelaarbi/RDP-from-colab.git  
+! chmod +x ../RDP-from-colab/setup.sh && bash ../RDP-from-colab/setup.sh  
 
